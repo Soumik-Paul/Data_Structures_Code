@@ -12,7 +12,7 @@ Use vector if size can change or if you want convenience.
 Well you can use push_back() to add an element at the end of a vector.
  <pre>int i,n,x; <br>
      cin>>n; // no of inputs
-     vector<int>x;
+     <code>vector&lt;int&gt; v; </code>
      for(i=0;i<n;i++)
      {
           cin>>x;
